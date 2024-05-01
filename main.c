@@ -9,7 +9,7 @@ void error(char *error) {
 
 int system(const char *command);
 
-int main(int argc, char *argv) {
+int main(int argc, char *argv[]) {
     char radice[1000]="";
     char radiceFin[2000]="";
     char *radiceTemp=radice;
